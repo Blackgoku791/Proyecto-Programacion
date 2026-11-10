@@ -1,0 +1,3 @@
+Requisito(s): 1, 10
+Verifica: El nombre se compara tal como está escrito: playa brava y Playa Brava son sectores distintos, igual que Murciélago y Murcielago.
+Fecha de hoy simulada: 2026-11-20

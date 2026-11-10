@@ -1,0 +1,75 @@
+
+===== Reserva Natural Bahía Coralina =====
+1. Crear un sector
+2. Registrar los visitantes del día siguiente
+3. Simular días
+4. Ver el informe de un sector
+5. Ver el sector con el porcentaje de uso más alto y el más bajo
+6. Cargar los sectores y los visitantes desde archivos
+7. Salir
+Elija una opción: 1
+Nombre del sector: Bisiesto
+Capacidad de carga (visitantes por día): 10
+Año de inicio del registro: 2028
+Mes de inicio del registro: 2
+Día de inicio del registro: 29
+Sector creado: Bisiesto (capacidad de carga: 10 visitantes, inicio del registro: 2028-02-29). Todavía no tiene días registrados.
+
+===== Reserva Natural Bahía Coralina =====
+1. Crear un sector
+2. Registrar los visitantes del día siguiente
+3. Simular días
+4. Ver el informe de un sector
+5. Ver el sector con el porcentaje de uso más alto y el más bajo
+6. Cargar los sectores y los visitantes desde archivos
+7. Salir
+Elija una opción: 1
+Nombre del sector: Final del calendario
+Capacidad de carga (visitantes por día): 10
+Año de inicio del registro: 9999
+Mes de inicio del registro: 12
+Día de inicio del registro: 31
+Sector creado: Final del calendario (capacidad de carga: 10 visitantes, inicio del registro: 9999-12-31). Todavía no tiene días registrados.
+
+===== Reserva Natural Bahía Coralina =====
+1. Crear un sector
+2. Registrar los visitantes del día siguiente
+3. Simular días
+4. Ver el informe de un sector
+5. Ver el sector con el porcentaje de uso más alto y el más bajo
+6. Cargar los sectores y los visitantes desde archivos
+7. Salir
+Elija una opción: 1
+Nombre del sector: Inicio del calendario
+Capacidad de carga (visitantes por día): 10
+Año de inicio del registro: 1
+Mes de inicio del registro: 1
+Día de inicio del registro: 1
+Sector creado: Inicio del calendario (capacidad de carga: 10 visitantes, inicio del registro: 0001-01-01). Todavía no tiene días registrados.
+
+===== Reserva Natural Bahía Coralina =====
+1. Crear un sector
+2. Registrar los visitantes del día siguiente
+3. Simular días
+4. Ver el informe de un sector
+5. Ver el sector con el porcentaje de uso más alto y el más bajo
+6. Cargar los sectores y los visitantes desde archivos
+7. Salir
+Elija una opción: 1
+Nombre del sector: Con espacios
+Capacidad de carga (visitantes por día): 10
+Año de inicio del registro:  2026 
+Mes de inicio del registro:  11 
+Día de inicio del registro:  1 
+Sector creado: Con espacios (capacidad de carga: 10 visitantes, inicio del registro: 2026-11-01). Todavía no tiene días registrados.
+
+===== Reserva Natural Bahía Coralina =====
+1. Crear un sector
+2. Registrar los visitantes del día siguiente
+3. Simular días
+4. Ver el informe de un sector
+5. Ver el sector con el porcentaje de uso más alto y el más bajo
+6. Cargar los sectores y los visitantes desde archivos
+7. Salir
+Elija una opción: 7
+Hasta luego.

@@ -1,0 +1,3 @@
+Requisito(s): 1
+Verifica: Fechas que no existen o no son números enteros avisan que la fecha no es válida y no crean el sector.
+Fecha de hoy simulada: 2026-11-20

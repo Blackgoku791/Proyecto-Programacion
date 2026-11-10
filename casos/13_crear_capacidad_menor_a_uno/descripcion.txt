@@ -1,0 +1,3 @@
+Requisito(s): 1
+Verifica: Capacidades 0, -5 y -0 avisan que debe ser de al menos un visitante.
+Fecha de hoy simulada: 2026-11-20

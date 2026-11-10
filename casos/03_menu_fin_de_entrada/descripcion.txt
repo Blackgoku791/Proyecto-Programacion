@@ -1,0 +1,3 @@
+Requisito(s): 14
+Verifica: Si se acaban los datos de entrada sin elegir salir, el programa termina con un aviso en vez de fallar.
+Fecha de hoy simulada: 2026-11-20

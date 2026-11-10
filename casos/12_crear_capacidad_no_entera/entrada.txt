@@ -1,0 +1,69 @@
+1
+Sector Prueba
+ochenta
+2026
+11
+1
+1
+Sector Prueba
+80.5
+2026
+11
+1
+1
+Sector Prueba
+
+2026
+11
+1
+1
+Sector Prueba
+8 0
+2026
+11
+1
+1
+Sector Prueba
+1e3
+2026
+11
+1
+1
+Sector Prueba
+--5
+2026
+11
+1
+1
+Sector Prueba
++
+2026
+11
+1
+1
+Sector Prueba
+-
+2026
+11
+1
+1
+Sector Prueba
+1_0
+2026
+11
+1
+1
+Sector Prueba
+٣
+2026
+11
+1
+1
+Sector Prueba
+²
+2026
+11
+1
+4
+Sector Prueba
+7

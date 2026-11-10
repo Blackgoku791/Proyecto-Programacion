@@ -1,0 +1,3 @@
+Requisito(s): 1
+Verifica: Capacidad 1 (límite), con espacios, con signo + y muy grande se aceptan.
+Fecha de hoy simulada: 2026-11-20

@@ -1,0 +1,3 @@
+Requisito(s): 1, 10
+Verifica: Un nombre vacío o solo de espacios no crea el sector; un nombre con espacios alrededor se guarda sin ellos.
+Fecha de hoy simulada: 2026-11-20

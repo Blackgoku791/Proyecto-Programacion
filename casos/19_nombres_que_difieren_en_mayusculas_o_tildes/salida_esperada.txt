@@ -1,0 +1,131 @@
+
+===== Reserva Natural Bahía Coralina =====
+1. Crear un sector
+2. Registrar los visitantes del día siguiente
+3. Simular días
+4. Ver el informe de un sector
+5. Ver el sector con el porcentaje de uso más alto y el más bajo
+6. Cargar los sectores y los visitantes desde archivos
+7. Salir
+Elija una opción: 1
+Nombre del sector: Playa Brava
+Capacidad de carga (visitantes por día): 600
+Año de inicio del registro: 2026
+Mes de inicio del registro: 11
+Día de inicio del registro: 1
+Sector creado: Playa Brava (capacidad de carga: 600 visitantes, inicio del registro: 2026-11-01). Todavía no tiene días registrados.
+
+===== Reserva Natural Bahía Coralina =====
+1. Crear un sector
+2. Registrar los visitantes del día siguiente
+3. Simular días
+4. Ver el informe de un sector
+5. Ver el sector con el porcentaje de uso más alto y el más bajo
+6. Cargar los sectores y los visitantes desde archivos
+7. Salir
+Elija una opción: 1
+Nombre del sector: playa brava
+Capacidad de carga (visitantes por día): 500
+Año de inicio del registro: 2026
+Mes de inicio del registro: 11
+Día de inicio del registro: 1
+Sector creado: playa brava (capacidad de carga: 500 visitantes, inicio del registro: 2026-11-01). Todavía no tiene días registrados.
+
+===== Reserva Natural Bahía Coralina =====
+1. Crear un sector
+2. Registrar los visitantes del día siguiente
+3. Simular días
+4. Ver el informe de un sector
+5. Ver el sector con el porcentaje de uso más alto y el más bajo
+6. Cargar los sectores y los visitantes desde archivos
+7. Salir
+Elija una opción: 1
+Nombre del sector: Cueva del Murciélago
+Capacidad de carga (visitantes por día): 40
+Año de inicio del registro: 2026
+Mes de inicio del registro: 11
+Día de inicio del registro: 1
+Sector creado: Cueva del Murciélago (capacidad de carga: 40 visitantes, inicio del registro: 2026-11-01). Todavía no tiene días registrados.
+
+===== Reserva Natural Bahía Coralina =====
+1. Crear un sector
+2. Registrar los visitantes del día siguiente
+3. Simular días
+4. Ver el informe de un sector
+5. Ver el sector con el porcentaje de uso más alto y el más bajo
+6. Cargar los sectores y los visitantes desde archivos
+7. Salir
+Elija una opción: 1
+Nombre del sector: Cueva del Murcielago
+Capacidad de carga (visitantes por día): 30
+Año de inicio del registro: 2026
+Mes de inicio del registro: 11
+Día de inicio del registro: 1
+Sector creado: Cueva del Murcielago (capacidad de carga: 30 visitantes, inicio del registro: 2026-11-01). Todavía no tiene días registrados.
+
+===== Reserva Natural Bahía Coralina =====
+1. Crear un sector
+2. Registrar los visitantes del día siguiente
+3. Simular días
+4. Ver el informe de un sector
+5. Ver el sector con el porcentaje de uso más alto y el más bajo
+6. Cargar los sectores y los visitantes desde archivos
+7. Salir
+Elija una opción: 4
+Nombre del sector: playa brava
+Informe del sector playa brava
+Capacidad de carga: 500 visitantes
+El sector no tiene días registrados.
+
+===== Reserva Natural Bahía Coralina =====
+1. Crear un sector
+2. Registrar los visitantes del día siguiente
+3. Simular días
+4. Ver el informe de un sector
+5. Ver el sector con el porcentaje de uso más alto y el más bajo
+6. Cargar los sectores y los visitantes desde archivos
+7. Salir
+Elija una opción: 4
+Nombre del sector: Cueva del Murcielago
+Informe del sector Cueva del Murcielago
+Capacidad de carga: 30 visitantes
+El sector no tiene días registrados.
+
+===== Reserva Natural Bahía Coralina =====
+1. Crear un sector
+2. Registrar los visitantes del día siguiente
+3. Simular días
+4. Ver el informe de un sector
+5. Ver el sector con el porcentaje de uso más alto y el más bajo
+6. Cargar los sectores y los visitantes desde archivos
+7. Salir
+Elija una opción: 4
+Nombre del sector: Playa Brava
+Informe del sector Playa Brava
+Capacidad de carga: 600 visitantes
+El sector no tiene días registrados.
+
+===== Reserva Natural Bahía Coralina =====
+1. Crear un sector
+2. Registrar los visitantes del día siguiente
+3. Simular días
+4. Ver el informe de un sector
+5. Ver el sector con el porcentaje de uso más alto y el más bajo
+6. Cargar los sectores y los visitantes desde archivos
+7. Salir
+Elija una opción: 4
+Nombre del sector: Cueva del Murciélago
+Informe del sector Cueva del Murciélago
+Capacidad de carga: 40 visitantes
+El sector no tiene días registrados.
+
+===== Reserva Natural Bahía Coralina =====
+1. Crear un sector
+2. Registrar los visitantes del día siguiente
+3. Simular días
+4. Ver el informe de un sector
+5. Ver el sector con el porcentaje de uso más alto y el más bajo
+6. Cargar los sectores y los visitantes desde archivos
+7. Salir
+Elija una opción: 7
+Hasta luego.

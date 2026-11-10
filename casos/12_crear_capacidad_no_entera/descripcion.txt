@@ -1,0 +1,3 @@
+Requisito(s): 1
+Verifica: Capacidades que no son enteros (ochenta, 80.5, vacía, 8 0, 1e3, --5, +, -, 1_0 y dígitos de otros alfabetos) no crean el sector.
+Fecha de hoy simulada: 2026-11-20

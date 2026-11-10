@@ -1,0 +1,87 @@
+1
+Sector Prueba
+10
+2026
+11
+31
+1
+Sector Prueba
+10
+2026
+noviembre
+1
+1
+Sector Prueba
+10
+x
+11
+1
+1
+Sector Prueba
+10
+2026
+11
+x
+1
+Sector Prueba
+10
+2026
+13
+1
+1
+Sector Prueba
+10
+2026
+0
+1
+1
+Sector Prueba
+10
+2026
+11
+0
+1
+Sector Prueba
+10
+0
+11
+1
+1
+Sector Prueba
+10
+10000
+11
+1
+1
+Sector Prueba
+10
+2027
+2
+29
+1
+Sector Prueba
+10
+
+11
+1
+1
+Sector Prueba
+10
+99999999999999999999
+1
+1
+1
+Sector Prueba
+10
+2026
+11
+1.5
+1
+Sector Prueba
+10
+2026
+ 
+1
+4
+Sector Prueba
+7

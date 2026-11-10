@@ -1,0 +1,3 @@
+Requisito(s): 1
+Verifica: Cuando fallan varias condiciones se muestra solo el mensaje de la primera: nombre vacío, nombre repetido, capacidad no entera, capacidad menor a uno, fecha.
+Fecha de hoy simulada: 2026-11-20

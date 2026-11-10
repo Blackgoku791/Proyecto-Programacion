@@ -1,0 +1,33 @@
+1
+Playa Brava
+600
+2026
+11
+1
+1
+playa brava
+500
+2026
+11
+1
+1
+Cueva del Murciélago
+40
+2026
+11
+1
+1
+Cueva del Murcielago
+30
+2026
+11
+1
+4
+playa brava
+4
+Cueva del Murcielago
+4
+Playa Brava
+4
+Cueva del Murciélago
+7

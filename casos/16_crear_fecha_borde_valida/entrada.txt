@@ -1,0 +1,25 @@
+1
+Bisiesto
+10
+2028
+2
+29
+1
+Final del calendario
+10
+9999
+12
+31
+1
+Inicio del calendario
+10
+1
+1
+1
+1
+Con espacios
+10
+ 2026 
+ 11 
+ 1 
+7

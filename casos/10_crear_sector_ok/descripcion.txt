@@ -1,0 +1,3 @@
+Requisito(s): 1
+Verifica: Con datos válidos crea el sector sin días registrados.
+Fecha de hoy simulada: 2026-11-20

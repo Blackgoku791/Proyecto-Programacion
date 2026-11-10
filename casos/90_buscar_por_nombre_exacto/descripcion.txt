@@ -1,0 +1,3 @@
+Requisito(s): 10
+Verifica: El nombre distingue mayúsculas y tildes y se compara sin espacios al principio ni al final; informe, registrar y simular lo buscan igual.
+Fecha de hoy simulada: 2026-11-20

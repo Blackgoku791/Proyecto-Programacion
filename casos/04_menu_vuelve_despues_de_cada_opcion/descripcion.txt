@@ -1,0 +1,3 @@
+Requisito(s): 14
+Verifica: Después de crear, informar, ver extremos, registrar con sector inexistente y una opción inválida, el menú vuelve a mostrarse.
+Fecha de hoy simulada: 2026-11-20

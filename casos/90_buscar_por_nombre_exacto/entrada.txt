@@ -1,0 +1,18 @@
+6
+casos/datos/sectores_informe.csv
+casos/datos/visitantes_informe.csv
+4
+Isla del Pirata
+4
+playa brava
+4
+Cueva del Murcielago
+4
+
+2
+playa brava
+3
+playa brava
+4
+  Playa Brava  
+7

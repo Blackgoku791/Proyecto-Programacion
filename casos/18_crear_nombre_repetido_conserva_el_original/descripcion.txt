@@ -1,0 +1,3 @@
+Requisito(s): 1, 10
+Verifica: Crear un sector con un nombre ya usado (también con espacios alrededor) avisa y el sector original conserva sus datos.
+Fecha de hoy simulada: 2026-11-20

@@ -1,0 +1,3 @@
+Requisito(s): 14
+Verifica: La opción 7 termina el programa.
+Fecha de hoy simulada: 2026-11-20

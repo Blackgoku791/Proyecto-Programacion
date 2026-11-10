@@ -1,0 +1,73 @@
+
+===== Reserva Natural Bahía Coralina =====
+1. Crear un sector
+2. Registrar los visitantes del día siguiente
+3. Simular días
+4. Ver el informe de un sector
+5. Ver el sector con el porcentaje de uso más alto y el más bajo
+6. Cargar los sectores y los visitantes desde archivos
+7. Salir
+Elija una opción: 1
+Nombre del sector: Sendero de los Mangles
+Capacidad de carga (visitantes por día): 150
+Año de inicio del registro: 2026
+Mes de inicio del registro: 11
+Día de inicio del registro: 1
+Sector creado: Sendero de los Mangles (capacidad de carga: 150 visitantes, inicio del registro: 2026-11-01). Todavía no tiene días registrados.
+
+===== Reserva Natural Bahía Coralina =====
+1. Crear un sector
+2. Registrar los visitantes del día siguiente
+3. Simular días
+4. Ver el informe de un sector
+5. Ver el sector con el porcentaje de uso más alto y el más bajo
+6. Cargar los sectores y los visitantes desde archivos
+7. Salir
+Elija una opción: 1
+Nombre del sector: Sendero de los Mangles
+Capacidad de carga (visitantes por día): 99
+Año de inicio del registro: 2027
+Mes de inicio del registro: 1
+Día de inicio del registro: 1
+Ya existe un sector con ese nombre.
+
+===== Reserva Natural Bahía Coralina =====
+1. Crear un sector
+2. Registrar los visitantes del día siguiente
+3. Simular días
+4. Ver el informe de un sector
+5. Ver el sector con el porcentaje de uso más alto y el más bajo
+6. Cargar los sectores y los visitantes desde archivos
+7. Salir
+Elija una opción: 1
+Nombre del sector:   Sendero de los Mangles 
+Capacidad de carga (visitantes por día): 99
+Año de inicio del registro: 2027
+Mes de inicio del registro: 1
+Día de inicio del registro: 1
+Ya existe un sector con ese nombre.
+
+===== Reserva Natural Bahía Coralina =====
+1. Crear un sector
+2. Registrar los visitantes del día siguiente
+3. Simular días
+4. Ver el informe de un sector
+5. Ver el sector con el porcentaje de uso más alto y el más bajo
+6. Cargar los sectores y los visitantes desde archivos
+7. Salir
+Elija una opción: 4
+Nombre del sector: Sendero de los Mangles
+Informe del sector Sendero de los Mangles
+Capacidad de carga: 150 visitantes
+El sector no tiene días registrados.
+
+===== Reserva Natural Bahía Coralina =====
+1. Crear un sector
+2. Registrar los visitantes del día siguiente
+3. Simular días
+4. Ver el informe de un sector
+5. Ver el sector con el porcentaje de uso más alto y el más bajo
+6. Cargar los sectores y los visitantes desde archivos
+7. Salir
+Elija una opción: 7
+Hasta luego.

@@ -34,6 +34,29 @@ def leer(mensaje):
         print(texto)
     return texto
 
+def pedir_sector(reserva):
+    """Lee el nombre de un sector y lo busca. Si no existe lo avisa y devuelve None."""
+    nombre = leer("Nombre del sector: ")
+    sector = reserva.buscar_sector(nombre)
+    if sector is None:
+        print("No hay un sector con ese nombre.")
+    return sector
+
+def opcion_crear_sector(reserva):
+    nombre = leer("Nombre del sector: ")
+    capacidad = leer("Capacidad de carga (visitantes por día): ")
+    anio = leer("Año de inicio del registro: ")
+    mes = leer("Mes de inicio del registro: ")
+    dia = leer("Día de inicio del registro: ")
+    sector, mensaje = reserva.crear_sector(nombre, capacidad, anio, mes, dia)
+    if sector is None:
+        print(mensaje)
+    else:
+        print(f"Sector creado: {sector.nombre} (capacidad de carga: "
+              f"{cantidad_texto(sector.capacidad, 'visitante', 'visitantes')}, "
+              f"inicio del registro: {sector.fecha_inicio}). "
+              "Todavía no tiene días registrados.")
+
 def main():
     reserva = Reserva()
     opcion = ""
@@ -41,6 +64,8 @@ def main():
         while opcion != "7":
             print(MENU)
             opcion = leer("Elija una opción: ").strip()
+            if opcion == "1":
+                opcion_crear_sector(reserva)
             elif opcion == "7":
                 print("Hasta luego.")
             else:

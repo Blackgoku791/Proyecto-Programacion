@@ -81,20 +81,24 @@ def buscar_sector(self, nombre):
                 return sector
         return None
 
-    def crear_sector(self, nombre, capacidad_texto, anio_texto, mes_texto, dia_texto):
+def crear_sector(self, nombre, capacidad_texto, anio_texto, mes_texto, dia_texto):
+        """Crea y guarda un sector. Devuelve (sector, None) o (None, mensaje).
+
+        Revisa las condiciones en orden y se detiene en la primera que falla.
+        """
         nombre = nombre.strip()
         if nombre == "":
             return None, "El nombre no puede estar vacío."
         if self.buscar_sector(nombre) is not None:
             return None, "Ya existe un sector con ese nombre."
-        fecha = crear_fecha(anio_texto, mes_texto, dia_texto)
-        if fecha is None:
-            return None, "La fecha no es válida."
         capacidad = convertir_entero(capacidad_texto)
         if capacidad is None:
             return None, "La capacidad de carga debe ser un número entero."
         if capacidad < 1:
             return None, "La capacidad de carga debe ser de al menos un visitante."
+        fecha = crear_fecha(anio_texto, mes_texto, dia_texto)
+        if fecha is None:
+            return None, "La fecha no es válida."
         sector = Sector(nombre, capacidad, fecha)
         self.sectores.append(sector)
         return sector, None

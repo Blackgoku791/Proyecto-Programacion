@@ -57,6 +57,25 @@ def opcion_crear_sector(reserva):
               f"inicio del registro: {sector.fecha_inicio}). "
               "Todavía no tiene días registrados.")
 
+def opcion_registrar_dia(reserva):
+    sector = pedir_sector(reserva)
+    if sector is None:
+        return
+    fecha = sector.fecha_siguiente()
+    if fecha is None:
+        print(MENSAJE_FIN_CALENDARIO)
+        return
+    print(f"El día que sigue en el registro es {fecha}.")
+    visitantes = None
+    while visitantes is None:
+        texto = leer(f"Visitantes del día {fecha}: ")
+        visitantes, mensaje = sector.validar_visitantes(texto)
+        if visitantes is None:
+            print(mensaje)
+    sector.registrar_dia(visitantes)
+    print(f"Se registró el día {fecha} con "
+          f"{cantidad_texto(visitantes, 'visitante', 'visitantes')}.")
+
 def main():
     reserva = Reserva()
     opcion = ""
@@ -66,6 +85,8 @@ def main():
             opcion = leer("Elija una opción: ").strip()
             if opcion == "1":
                 opcion_crear_sector(reserva)
+            elif opcion == "2":
+                opcion_registrar_dia(reserva)
             elif opcion == "7":
                 print("Hasta luego.")
             else:

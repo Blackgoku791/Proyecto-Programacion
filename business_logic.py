@@ -17,13 +17,22 @@ MENSAJE_FIN_CALENDARIO = ("El registro de este sector ya llegó al último día 
                           "que permite el calendario.")
 
 def convertir_entero(texto):
+    """Convierte un texto en un número entero, o devuelve None si no lo es.
+
+    Acepta espacios al principio y al final y un signo + o - delante. Solo
+    acepta los dígitos del 0 al 9 (int() de Python aceptaría también guiones
+    bajos o dígitos de otros alfabetos, y aquí no queremos eso).
+    """
     texto = texto.strip()
-    if texto == "":
+    cuerpo = texto
+    if len(texto) > 0 and texto[0] in "+-":
+        cuerpo = texto[1:]
+    if cuerpo == "":
         return None
-    try:
-        return int(texto)
-    except ValueError:
-        return None
+    for caracter in cuerpo:
+        if caracter not in "0123456789":
+            return None
+    return int(texto)
 
 def crear_fecha(anio_texto, mes_texto, dia_texto):
     """Devuelve la fecha del calendario, o None si no es una fecha válida."""

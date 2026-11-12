@@ -1,0 +1,163 @@
+
+===== Reserva Natural Bahía Coralina =====
+1. Crear un sector
+2. Registrar los visitantes del día siguiente
+3. Simular días
+4. Ver el informe de un sector
+5. Ver el sector con el porcentaje de uso más alto y el más bajo
+6. Cargar los sectores y los visitantes desde archivos
+7. Salir
+Elija una opción: 1
+Nombre del sector: Ultimo dia
+Capacidad de carga (visitantes por día): 10
+Año de inicio del registro: 9999
+Mes de inicio del registro: 12
+Día de inicio del registro: 31
+Sector creado: Ultimo dia (capacidad de carga: 10 visitantes, inicio del registro: 9999-12-31). Todavía no tiene días registrados.
+
+===== Reserva Natural Bahía Coralina =====
+1. Crear un sector
+2. Registrar los visitantes del día siguiente
+3. Simular días
+4. Ver el informe de un sector
+5. Ver el sector con el porcentaje de uso más alto y el más bajo
+6. Cargar los sectores y los visitantes desde archivos
+7. Salir
+Elija una opción: 3
+Nombre del sector: Ultimo dia
+Número de días a simular: 2
+El calendario solo permite registrar 1 día más en este sector.
+
+===== Reserva Natural Bahía Coralina =====
+1. Crear un sector
+2. Registrar los visitantes del día siguiente
+3. Simular días
+4. Ver el informe de un sector
+5. Ver el sector con el porcentaje de uso más alto y el más bajo
+6. Cargar los sectores y los visitantes desde archivos
+7. Salir
+Elija una opción: 2
+Nombre del sector: Ultimo dia
+El día que sigue en el registro es 9999-12-31.
+Visitantes del día 9999-12-31: 5
+Se registró el día 9999-12-31 con 5 visitantes.
+
+===== Reserva Natural Bahía Coralina =====
+1. Crear un sector
+2. Registrar los visitantes del día siguiente
+3. Simular días
+4. Ver el informe de un sector
+5. Ver el sector con el porcentaje de uso más alto y el más bajo
+6. Cargar los sectores y los visitantes desde archivos
+7. Salir
+Elija una opción: 2
+Nombre del sector: Ultimo dia
+El registro de este sector ya llegó al último día que permite el calendario.
+
+===== Reserva Natural Bahía Coralina =====
+1. Crear un sector
+2. Registrar los visitantes del día siguiente
+3. Simular días
+4. Ver el informe de un sector
+5. Ver el sector con el porcentaje de uso más alto y el más bajo
+6. Cargar los sectores y los visitantes desde archivos
+7. Salir
+Elija una opción: 3
+Nombre del sector: Ultimo dia
+Número de días a simular: 1
+El registro de este sector ya llegó al último día que permite el calendario.
+
+===== Reserva Natural Bahía Coralina =====
+1. Crear un sector
+2. Registrar los visitantes del día siguiente
+3. Simular días
+4. Ver el informe de un sector
+5. Ver el sector con el porcentaje de uso más alto y el más bajo
+6. Cargar los sectores y los visitantes desde archivos
+7. Salir
+Elija una opción: 1
+Nombre del sector: Penultimo
+Capacidad de carga (visitantes por día): 10
+Año de inicio del registro: 9999
+Mes de inicio del registro: 12
+Día de inicio del registro: 30
+Sector creado: Penultimo (capacidad de carga: 10 visitantes, inicio del registro: 9999-12-30). Todavía no tiene días registrados.
+
+===== Reserva Natural Bahía Coralina =====
+1. Crear un sector
+2. Registrar los visitantes del día siguiente
+3. Simular días
+4. Ver el informe de un sector
+5. Ver el sector con el porcentaje de uso más alto y el más bajo
+6. Cargar los sectores y los visitantes desde archivos
+7. Salir
+Elija una opción: 3
+Nombre del sector: Penultimo
+Número de días a simular: 3
+El calendario solo permite registrar 2 días más en este sector.
+
+===== Reserva Natural Bahía Coralina =====
+1. Crear un sector
+2. Registrar los visitantes del día siguiente
+3. Simular días
+4. Ver el informe de un sector
+5. Ver el sector con el porcentaje de uso más alto y el más bajo
+6. Cargar los sectores y los visitantes desde archivos
+7. Salir
+Elija una opción: 3
+Nombre del sector: Penultimo
+Número de días a simular: 2
+Visitantes mínimos: 5
+Visitantes máximos: 5
+Se simularon 2 días en el registro de Penultimo.
+
+===== Reserva Natural Bahía Coralina =====
+1. Crear un sector
+2. Registrar los visitantes del día siguiente
+3. Simular días
+4. Ver el informe de un sector
+5. Ver el sector con el porcentaje de uso más alto y el más bajo
+6. Cargar los sectores y los visitantes desde archivos
+7. Salir
+Elija una opción: 3
+Nombre del sector: Penultimo
+Número de días a simular: 1
+El registro de este sector ya llegó al último día que permite el calendario.
+
+===== Reserva Natural Bahía Coralina =====
+1. Crear un sector
+2. Registrar los visitantes del día siguiente
+3. Simular días
+4. Ver el informe de un sector
+5. Ver el sector con el porcentaje de uso más alto y el más bajo
+6. Cargar los sectores y los visitantes desde archivos
+7. Salir
+Elija una opción: 4
+Nombre del sector: Penultimo
+Informe del sector Penultimo
+Capacidad de carga: 10 visitantes
+Días registrados: 2
+Visitantes totales: 10
+Promedio de visitantes por día: 5.0
+Porcentaje de uso: 50.0 %
+Desviación estándar de los visitantes: 0.0
+Día con más visitantes: 9999-12-30
+Día con menos visitantes: 9999-12-30
+Días en presión baja: 0
+Días en presión moderada: 2
+Días en presión alta: 0
+Días en saturación: 0
+Racha más larga en saturación: el sector no tuvo ningún día en saturación.
+Último día registrado: 9999-12-31
+El registro está al día.
+
+===== Reserva Natural Bahía Coralina =====
+1. Crear un sector
+2. Registrar los visitantes del día siguiente
+3. Simular días
+4. Ver el informe de un sector
+5. Ver el sector con el porcentaje de uso más alto y el más bajo
+6. Cargar los sectores y los visitantes desde archivos
+7. Salir
+Elija una opción: 7
+Hasta luego.

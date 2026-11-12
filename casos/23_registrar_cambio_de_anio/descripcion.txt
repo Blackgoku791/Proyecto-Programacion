@@ -1,0 +1,3 @@
+Requisito(s): 2, 9
+Verifica: El día siguiente cruza de 2026-12-31 a 2027-01-01; un registro adelantado a hoy está al día.
+Fecha de hoy simulada: 2026-11-20

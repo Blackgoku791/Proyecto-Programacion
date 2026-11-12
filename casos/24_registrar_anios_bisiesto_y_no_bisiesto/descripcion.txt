@@ -1,0 +1,3 @@
+Requisito(s): 2
+Verifica: Después del 28 de febrero sigue el 29 en 2028 (bisiesto) y el 1 de marzo en 2027.
+Fecha de hoy simulada: 2026-11-20

@@ -1,0 +1,98 @@
+
+===== Reserva Natural Bahía Coralina =====
+1. Crear un sector
+2. Registrar los visitantes del día siguiente
+3. Simular días
+4. Ver el informe de un sector
+5. Ver el sector con el porcentaje de uso más alto y el más bajo
+6. Cargar los sectores y los visitantes desde archivos
+7. Salir
+Elija una opción: 1
+Nombre del sector: Mirador del Faro
+Capacidad de carga (visitantes por día): 80
+Año de inicio del registro: 2026
+Mes de inicio del registro: 11
+Día de inicio del registro: 1
+Sector creado: Mirador del Faro (capacidad de carga: 80 visitantes, inicio del registro: 2026-11-01). Todavía no tiene días registrados.
+
+===== Reserva Natural Bahía Coralina =====
+1. Crear un sector
+2. Registrar los visitantes del día siguiente
+3. Simular días
+4. Ver el informe de un sector
+5. Ver el sector con el porcentaje de uso más alto y el más bajo
+6. Cargar los sectores y los visitantes desde archivos
+7. Salir
+Elija una opción: 2
+Nombre del sector: Mirador del Faro
+El día que sigue en el registro es 2026-11-01.
+Visitantes del día 2026-11-01: 0
+Se registró el día 2026-11-01 con 0 visitantes.
+
+===== Reserva Natural Bahía Coralina =====
+1. Crear un sector
+2. Registrar los visitantes del día siguiente
+3. Simular días
+4. Ver el informe de un sector
+5. Ver el sector con el porcentaje de uso más alto y el más bajo
+6. Cargar los sectores y los visitantes desde archivos
+7. Salir
+Elija una opción: 2
+Nombre del sector: Mirador del Faro
+El día que sigue en el registro es 2026-11-02.
+Visitantes del día 2026-11-02: 81
+Los visitantes van de 0 a 80.
+Visitantes del día 2026-11-02: 80
+Se registró el día 2026-11-02 con 80 visitantes.
+
+===== Reserva Natural Bahía Coralina =====
+1. Crear un sector
+2. Registrar los visitantes del día siguiente
+3. Simular días
+4. Ver el informe de un sector
+5. Ver el sector con el porcentaje de uso más alto y el más bajo
+6. Cargar los sectores y los visitantes desde archivos
+7. Salir
+Elija una opción: 2
+Nombre del sector: Mirador del Faro
+El día que sigue en el registro es 2026-11-03.
+Visitantes del día 2026-11-03: 1
+Se registró el día 2026-11-03 con 1 visitante.
+
+===== Reserva Natural Bahía Coralina =====
+1. Crear un sector
+2. Registrar los visitantes del día siguiente
+3. Simular días
+4. Ver el informe de un sector
+5. Ver el sector con el porcentaje de uso más alto y el más bajo
+6. Cargar los sectores y los visitantes desde archivos
+7. Salir
+Elija una opción: 4
+Nombre del sector: Mirador del Faro
+Informe del sector Mirador del Faro
+Capacidad de carga: 80 visitantes
+Días registrados: 3
+Visitantes totales: 81
+Promedio de visitantes por día: 27.0
+Porcentaje de uso: 33.75 %
+Desviación estándar de los visitantes: 37.48
+Día con más visitantes: 2026-11-02
+Día con menos visitantes: 2026-11-01
+Días en presión baja: 2
+Días en presión moderada: 0
+Días en presión alta: 0
+Días en saturación: 1
+Racha más larga en saturación: 1 día, desde el 2026-11-02
+Último día registrado: 2026-11-03
+Días por registrar: 16, del 2026-11-04 al 2026-11-19
+
+===== Reserva Natural Bahía Coralina =====
+1. Crear un sector
+2. Registrar los visitantes del día siguiente
+3. Simular días
+4. Ver el informe de un sector
+5. Ver el sector con el porcentaje de uso más alto y el más bajo
+6. Cargar los sectores y los visitantes desde archivos
+7. Salir
+Elija una opción: 7
+Hasta luego.

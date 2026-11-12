@@ -1,0 +1,113 @@
+
+===== Reserva Natural Bahía Coralina =====
+1. Crear un sector
+2. Registrar los visitantes del día siguiente
+3. Simular días
+4. Ver el informe de un sector
+5. Ver el sector con el porcentaje de uso más alto y el más bajo
+6. Cargar los sectores y los visitantes desde archivos
+7. Salir
+Elija una opción: 1
+Nombre del sector: Bisiesto
+Capacidad de carga (visitantes por día): 50
+Año de inicio del registro: 2028
+Mes de inicio del registro: 2
+Día de inicio del registro: 28
+Sector creado: Bisiesto (capacidad de carga: 50 visitantes, inicio del registro: 2028-02-28). Todavía no tiene días registrados.
+
+===== Reserva Natural Bahía Coralina =====
+1. Crear un sector
+2. Registrar los visitantes del día siguiente
+3. Simular días
+4. Ver el informe de un sector
+5. Ver el sector con el porcentaje de uso más alto y el más bajo
+6. Cargar los sectores y los visitantes desde archivos
+7. Salir
+Elija una opción: 2
+Nombre del sector: Bisiesto
+El día que sigue en el registro es 2028-02-28.
+Visitantes del día 2028-02-28: 5
+Se registró el día 2028-02-28 con 5 visitantes.
+
+===== Reserva Natural Bahía Coralina =====
+1. Crear un sector
+2. Registrar los visitantes del día siguiente
+3. Simular días
+4. Ver el informe de un sector
+5. Ver el sector con el porcentaje de uso más alto y el más bajo
+6. Cargar los sectores y los visitantes desde archivos
+7. Salir
+Elija una opción: 2
+Nombre del sector: Bisiesto
+El día que sigue en el registro es 2028-02-29.
+Visitantes del día 2028-02-29: 5
+Se registró el día 2028-02-29 con 5 visitantes.
+
+===== Reserva Natural Bahía Coralina =====
+1. Crear un sector
+2. Registrar los visitantes del día siguiente
+3. Simular días
+4. Ver el informe de un sector
+5. Ver el sector con el porcentaje de uso más alto y el más bajo
+6. Cargar los sectores y los visitantes desde archivos
+7. Salir
+Elija una opción: 2
+Nombre del sector: Bisiesto
+El día que sigue en el registro es 2028-03-01.
+Visitantes del día 2028-03-01: 5
+Se registró el día 2028-03-01 con 5 visitantes.
+
+===== Reserva Natural Bahía Coralina =====
+1. Crear un sector
+2. Registrar los visitantes del día siguiente
+3. Simular días
+4. Ver el informe de un sector
+5. Ver el sector con el porcentaje de uso más alto y el más bajo
+6. Cargar los sectores y los visitantes desde archivos
+7. Salir
+Elija una opción: 1
+Nombre del sector: No bisiesto
+Capacidad de carga (visitantes por día): 50
+Año de inicio del registro: 2027
+Mes de inicio del registro: 2
+Día de inicio del registro: 28
+Sector creado: No bisiesto (capacidad de carga: 50 visitantes, inicio del registro: 2027-02-28). Todavía no tiene días registrados.
+
+===== Reserva Natural Bahía Coralina =====
+1. Crear un sector
+2. Registrar los visitantes del día siguiente
+3. Simular días
+4. Ver el informe de un sector
+5. Ver el sector con el porcentaje de uso más alto y el más bajo
+6. Cargar los sectores y los visitantes desde archivos
+7. Salir
+Elija una opción: 2
+Nombre del sector: No bisiesto
+El día que sigue en el registro es 2027-02-28.
+Visitantes del día 2027-02-28: 5
+Se registró el día 2027-02-28 con 5 visitantes.
+
+===== Reserva Natural Bahía Coralina =====
+1. Crear un sector
+2. Registrar los visitantes del día siguiente
+3. Simular días
+4. Ver el informe de un sector
+5. Ver el sector con el porcentaje de uso más alto y el más bajo
+6. Cargar los sectores y los visitantes desde archivos
+7. Salir
+Elija una opción: 2
+Nombre del sector: No bisiesto
+El día que sigue en el registro es 2027-03-01.
+Visitantes del día 2027-03-01: 5
+Se registró el día 2027-03-01 con 5 visitantes.
+
+===== Reserva Natural Bahía Coralina =====
+1. Crear un sector
+2. Registrar los visitantes del día siguiente
+3. Simular días
+4. Ver el informe de un sector
+5. Ver el sector con el porcentaje de uso más alto y el más bajo
+6. Cargar los sectores y los visitantes desde archivos
+7. Salir
+Elija una opción: 7
+Hasta luego.

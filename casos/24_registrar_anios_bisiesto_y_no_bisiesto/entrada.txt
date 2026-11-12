@@ -1,0 +1,28 @@
+1
+Bisiesto
+50
+2028
+2
+28
+2
+Bisiesto
+5
+2
+Bisiesto
+5
+2
+Bisiesto
+5
+1
+No bisiesto
+50
+2027
+2
+28
+2
+No bisiesto
+5
+2
+No bisiesto
+5
+7

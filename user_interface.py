@@ -76,6 +76,31 @@ def opcion_registrar_dia(reserva):
     print(f"Se registró el día {fecha} con "
           f"{cantidad_texto(visitantes, 'visitante', 'visitantes')}.")
 
+def opcion_simular_dias(reserva):
+    sector = pedir_sector(reserva)
+    if sector is None:
+        return
+    # Cada dato se revisa apenas se lee; si falla, se vuelve al menú sin leer los demás.
+    dias, mensaje = sector.validar_dias_a_simular(leer("Número de días a simular: "))
+    if dias is None:
+        print(mensaje)
+        return
+    minimo, mensaje = sector.validar_visitantes(leer("Visitantes mínimos: "))
+    if minimo is None:
+        print(mensaje)
+        return
+    maximo, mensaje = sector.validar_visitantes(leer("Visitantes máximos: "))
+    if maximo is None:
+        print(mensaje)
+        return
+    mensaje = sector.validar_minimo_y_maximo(minimo, maximo)
+    if mensaje is not None:
+        print(mensaje)
+        return
+    sector.simular_dias(dias, minimo, maximo)
+    print(f"Se simularon {cantidad_texto(dias, 'día', 'días')} "
+          f"en el registro de {sector.nombre}.")
+
 def main():
     reserva = Reserva()
     opcion = ""
@@ -87,6 +112,8 @@ def main():
                 opcion_crear_sector(reserva)
             elif opcion == "2":
                 opcion_registrar_dia(reserva)
+            elif opcion == "3":
+                opcion_simular_dias(reserva)
             elif opcion == "7":
                 print("Hasta luego.")
             else:

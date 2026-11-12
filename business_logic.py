@@ -81,6 +81,24 @@ def registrar_dia(self, visitantes):
         """Agrega un día ya validado al final del registro."""
         self.visitantes.append(visitantes)
 
+    def validar_dias_a_simular(self, texto):
+        dias = convertir_entero(texto)
+        if dias is None:
+            return None, "El número de días debe ser un número entero."
+        if dias < 1:
+            return None, "Se debe simular al menos un día."
+        return dias, None
+
+def validar_minimo_y_maximo(self, minimo, maximo):
+        """Devuelve un mensaje de error, o None si el mínimo no pasa del máximo."""
+        if minimo > maximo:
+            return "El mínimo no puede ser mayor que el máximo."
+        return None
+
+    def simular_dias(self, dias, minimo, maximo):
+        for _ in range(dias):
+            self.visitantes.append(random.randint(minimo, maximo))
+
 class Reserva:
 def __init__(self):
         self.sectores = []

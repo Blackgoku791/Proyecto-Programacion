@@ -65,7 +65,10 @@ def dias_registrados(self):
 def fecha_del_dia(self, posicion):
         return self.fecha_inicio + timedelta(days=posicion)
 
-    def fecha_siguiente(self):
+def fecha_siguiente(self):
+        """Fecha del día que sigue en el registro, o None si ya no cabe otro."""
+        if self.dias_que_caben() <= 0:
+            return None
         return self.fecha_del_dia(len(self.visitantes))
 
 def validar_visitantes(self, texto):
@@ -81,12 +84,19 @@ def registrar_dia(self, visitantes):
         """Agrega un día ya validado al final del registro."""
         self.visitantes.append(visitantes)
 
-    def validar_dias_a_simular(self, texto):
+def validar_dias_a_simular(self, texto):
+        """Devuelve (dias, None) o (None, mensaje de error)."""
         dias = convertir_entero(texto)
         if dias is None:
             return None, "El número de días debe ser un número entero."
         if dias < 1:
             return None, "Se debe simular al menos un día."
+        caben = self.dias_que_caben()
+        if caben <= 0:
+            return None, MENSAJE_FIN_CALENDARIO
+        if dias > caben:
+            return None, ("El calendario solo permite registrar "
+                          f"{cantidad_texto(caben, 'día', 'días')} más en este sector.")
         return dias, None
 
 def validar_minimo_y_maximo(self, minimo, maximo):
@@ -99,6 +109,11 @@ def simular_dias(self, dias, minimo, maximo, generador=random):
         """Agrega días con un número de visitantes al azar entre minimo y maximo."""
         for _ in range(dias):
             self.visitantes.append(generador.randint(minimo, maximo))
+
+def dias_que_caben(self):
+        """Cuántos días más se pueden registrar antes de salirse del calendario."""
+        hasta_el_final = (date.max - self.fecha_inicio).days + 1
+        return hasta_el_final - len(self.visitantes)
 
 class Reserva:
 def __init__(self):

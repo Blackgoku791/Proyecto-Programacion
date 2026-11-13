@@ -95,9 +95,10 @@ def validar_minimo_y_maximo(self, minimo, maximo):
             return "El mínimo no puede ser mayor que el máximo."
         return None
 
-    def simular_dias(self, dias, minimo, maximo):
+def simular_dias(self, dias, minimo, maximo, generador=random):
+        """Agrega días con un número de visitantes al azar entre minimo y maximo."""
         for _ in range(dias):
-            self.visitantes.append(random.randint(minimo, maximo))
+            self.visitantes.append(generador.randint(minimo, maximo))
 
 class Reserva:
 def __init__(self):

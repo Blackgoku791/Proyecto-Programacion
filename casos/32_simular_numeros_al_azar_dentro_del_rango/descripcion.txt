@@ -1,0 +1,3 @@
+Requisito(s): 3
+Verifica: Los días simulados se agregan después de los registrados, con visitantes dentro del rango y con el mínimo y el máximo incluidos (propiedades, porque el azar cambia en cada ejecución).
+Fecha de hoy simulada: 2026-11-20

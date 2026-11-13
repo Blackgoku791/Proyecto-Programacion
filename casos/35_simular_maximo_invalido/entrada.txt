@@ -1,0 +1,29 @@
+1
+Mirador del Faro
+80
+2026
+11
+1
+3
+Mirador del Faro
+3
+10
+x
+3
+Mirador del Faro
+3
+10
+81
+3
+Mirador del Faro
+3
+10
+-1
+3
+Mirador del Faro
+3
+10
+
+4
+Mirador del Faro
+7

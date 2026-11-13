@@ -1,0 +1,3 @@
+Requisito(s): 3
+Verifica: Días que no son enteros o menores que 1 avisan y no leen el mínimo ni el máximo; no se agrega ningún día.
+Fecha de hoy simulada: 2026-11-20

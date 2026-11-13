@@ -1,0 +1,3 @@
+Requisito(s): 3, 10
+Verifica: Con un sector inexistente avisa y vuelve al menú sin leer los demás datos.
+Fecha de hoy simulada: 2026-11-20

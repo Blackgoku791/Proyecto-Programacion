@@ -1,0 +1,3 @@
+Requisito(s): 3
+Verifica: Un máximo no entero o fuera de 0 a la capacidad avisa y no agrega días.
+Fecha de hoy simulada: 2026-11-20

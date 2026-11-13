@@ -1,0 +1,3 @@
+Requisito(s): 3, 4, 7
+Verifica: Con mínimo igual al máximo (40) los tres días simulados valen 40; 40 de 80 es exactamente 50 %, presión moderada.
+Fecha de hoy simulada: 2026-11-20

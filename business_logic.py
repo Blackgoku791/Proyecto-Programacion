@@ -115,6 +115,43 @@ def dias_que_caben(self):
         hasta_el_final = (date.max - self.fecha_inicio).days + 1
         return hasta_el_final - len(self.visitantes)
 
+def visitantes_totales(self):
+        total = 0
+        for cantidad in self.visitantes:
+            total = total + cantidad
+        return total
+
+def promedio(self):
+        return self.visitantes_totales() / len(self.visitantes)
+
+def porcentaje_uso(self):
+        """Promedio entre capacidad por 100, calculado con una sola división."""
+        return self.visitantes_totales() * 100 / (len(self.visitantes) * self.capacidad)
+
+def desviacion_estandar(self):
+        promedio = self.promedio()
+        suma_cuadrados = 0
+        for cantidad in self.visitantes:
+            diferencia = cantidad - promedio
+            suma_cuadrados = suma_cuadrados + diferencia ** 2
+        return math.sqrt(suma_cuadrados / len(self.visitantes))
+
+def fecha_dia_con_mas_visitantes(self):
+        """Fecha del primer día con el máximo de visitantes."""
+        posicion = 0
+        for i in range(1, len(self.visitantes)):
+            if self.visitantes[i] > self.visitantes[posicion]:
+                posicion = i
+        return self.fecha_del_dia(posicion)
+
+def fecha_dia_con_menos_visitantes(self):
+        """Fecha del primer día con el mínimo de visitantes."""
+        posicion = 0
+        for i in range(1, len(self.visitantes)):
+            if self.visitantes[i] < self.visitantes[posicion]:
+                posicion = i
+        return self.fecha_del_dia(posicion)
+
 class Reserva:
 def __init__(self):
         self.sectores = []

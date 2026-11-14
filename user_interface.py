@@ -101,6 +101,46 @@ def opcion_simular_dias(reserva):
     print(f"Se simularon {cantidad_texto(dias, 'día', 'días')} "
           f"en el registro de {sector.nombre}.")
 
+def mostrar_informe(sector):
+    print(f"Informe del sector {sector.nombre}")
+    print("Capacidad de carga: "
+          f"{cantidad_texto(sector.capacidad, 'visitante', 'visitantes')}")
+    if sector.dias_registrados() == 0:
+        print("El sector no tiene días registrados.")
+        return
+    print(f"Días registrados: {sector.dias_registrados()}")
+    print(f"Visitantes totales: {sector.visitantes_totales()}")
+    print(f"Promedio de visitantes por día: {round(sector.promedio(), 2)}")
+    print(f"Porcentaje de uso: {round(sector.porcentaje_uso(), 2)} %")
+    print("Desviación estándar de los visitantes: "
+          f"{round(sector.desviacion_estandar(), 2)}")
+    print(f"Día con más visitantes: {sector.fecha_dia_con_mas_visitantes()}")
+    print(f"Día con menos visitantes: {sector.fecha_dia_con_menos_visitantes()}")
+    baja, moderada, alta, saturacion = sector.dias_por_nivel()
+    print(f"Días en presión baja: {baja}")
+    print(f"Días en presión moderada: {moderada}")
+    print(f"Días en presión alta: {alta}")
+    print(f"Días en saturación: {saturacion}")
+    largo, inicio = sector.racha_mas_larga_en_saturacion()
+    if largo == 0:
+        print("Racha más larga en saturación: el sector no tuvo ningún día en saturación.")
+    else:
+        print("Racha más larga en saturación: "
+              f"{cantidad_texto(largo, 'día', 'días')}, desde el {inicio}")
+    print(f"Último día registrado: {sector.fecha_ultimo_dia()}")
+    faltan, primero, ultimo = sector.dias_sin_registrar()
+    if faltan == 0:
+        print("El registro está al día.")
+    elif faltan == 1:
+        print(f"Días por registrar: 1, el {primero}")
+    else:
+        print(f"Días por registrar: {faltan}, del {primero} al {ultimo}")
+
+def opcion_informe(reserva):
+    sector = pedir_sector(reserva)
+    if sector is not None:
+        mostrar_informe(sector)
+
 def main():
     reserva = Reserva()
     opcion = ""
@@ -114,6 +154,8 @@ def main():
                 opcion_registrar_dia(reserva)
             elif opcion == "3":
                 opcion_simular_dias(reserva)
+            elif opcion == "4":
+                opcion_informe(reserva)
             elif opcion == "7":
                 print("Hasta luego.")
             else:

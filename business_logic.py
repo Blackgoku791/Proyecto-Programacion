@@ -152,6 +152,23 @@ def fecha_dia_con_menos_visitantes(self):
                 posicion = i
         return self.fecha_del_dia(posicion)
 
+    def nivel_de_presion(self, visitantes):
+        porcentaje = visitantes / self.capacidad
+        if porcentaje >= 0.9:
+            return SATURACION
+        if porcentaje >= 0.75:
+            return ALTA
+        if porcentaje >= 0.5:
+            return MODERADA
+        return BAJA
+
+def dias_por_nivel(self):
+        """Lista de cuatro conteos, en el orden baja, moderada, alta, saturación."""
+        conteos = [0, 0, 0, 0]
+        for cantidad in self.visitantes:
+            conteos[self.nivel_de_presion(cantidad)] += 1
+        return conteos
+
 class Reserva:
 def __init__(self):
         self.sectores = []

@@ -1,0 +1,3 @@
+Requisito(s): 4
+Verifica: Un sector sin días registrados muestra nombre, capacidad y el aviso, y nada más.
+Fecha de hoy simulada: 2026-11-20

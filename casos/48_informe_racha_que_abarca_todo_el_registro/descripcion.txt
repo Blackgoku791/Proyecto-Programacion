@@ -1,0 +1,3 @@
+Requisito(s): 8
+Verifica: Todos los días en saturación (el 90 % exacto cuenta): la racha es todo el registro.
+Fecha de hoy simulada: 2026-11-20

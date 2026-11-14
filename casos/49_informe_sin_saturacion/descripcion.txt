@@ -1,0 +1,3 @@
+Requisito(s): 7, 8
+Verifica: Sin ningún día en saturación el informe lo avisa; 50 % exacto es moderada y 89 % es alta.
+Fecha de hoy simulada: 2026-11-20

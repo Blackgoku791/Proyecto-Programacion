@@ -1,0 +1,3 @@
+Requisito(s): 8
+Verifica: Hay una racha de 2 días y otra de 3 días; gana la de 3 que empieza el 2026-11-04.
+Fecha de hoy simulada: 2026-11-20

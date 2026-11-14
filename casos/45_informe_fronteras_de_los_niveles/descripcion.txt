@@ -1,0 +1,3 @@
+Requisito(s): 7
+Verifica: Los visitantes 299, 300, 449, 450, 539 y 540 de un sector de 600 caen en baja, moderada, moderada, alta, alta y saturación.
+Fecha de hoy simulada: 2026-11-20

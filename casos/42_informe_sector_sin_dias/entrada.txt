@@ -1,0 +1,6 @@
+6
+casos/datos/sectores_informe.csv
+casos/datos/visitantes_informe.csv
+4
+Cueva del Murciélago
+7

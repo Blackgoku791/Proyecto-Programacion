@@ -1,0 +1,52 @@
+
+===== Reserva Natural Bahía Coralina =====
+1. Crear un sector
+2. Registrar los visitantes del día siguiente
+3. Simular días
+4. Ver el informe de un sector
+5. Ver el sector con el porcentaje de uso más alto y el más bajo
+6. Cargar los sectores y los visitantes desde archivos
+7. Salir
+Elija una opción: 6
+Ruta del archivo de sectores: casos/datos/sectores_especiales.csv
+Se cargaron 6 sectores.
+Ruta del archivo de visitantes: casos/datos/visitantes_especiales.csv
+Se cargaron 29 días.
+
+===== Reserva Natural Bahía Coralina =====
+1. Crear un sector
+2. Registrar los visitantes del día siguiente
+3. Simular días
+4. Ver el informe de un sector
+5. Ver el sector con el porcentaje de uso más alto y el más bajo
+6. Cargar los sectores y los visitantes desde archivos
+7. Salir
+Elija una opción: 4
+Nombre del sector: Rachas iguales
+Informe del sector Rachas iguales
+Capacidad de carga: 600 visitantes
+Días registrados: 5
+Visitantes totales: 2500
+Promedio de visitantes por día: 500.0
+Porcentaje de uso: 83.33 %
+Desviación estándar de los visitantes: 200.0
+Día con más visitantes: 2026-11-01
+Día con menos visitantes: 2026-11-03
+Días en presión baja: 1
+Días en presión moderada: 0
+Días en presión alta: 0
+Días en saturación: 4
+Racha más larga en saturación: 2 días, desde el 2026-11-01
+Último día registrado: 2026-11-05
+Días por registrar: 14, del 2026-11-06 al 2026-11-19
+
+===== Reserva Natural Bahía Coralina =====
+1. Crear un sector
+2. Registrar los visitantes del día siguiente
+3. Simular días
+4. Ver el informe de un sector
+5. Ver el sector con el porcentaje de uso más alto y el más bajo
+6. Cargar los sectores y los visitantes desde archivos
+7. Salir
+Elija una opción: 7
+Hasta luego.

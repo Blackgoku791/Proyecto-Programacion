@@ -1,0 +1,3 @@
+Requisito(s): 6, 7, 8
+Verifica: Con dos días empatados en el máximo (600) y en el mínimo (120) se muestran los primeros.
+Fecha de hoy simulada: 2026-11-20

@@ -1,0 +1,3 @@
+Requisito(s): 8
+Verifica: Dos rachas de 2 días empatan; muestra la que empezó primero.
+Fecha de hoy simulada: 2026-11-20

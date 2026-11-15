@@ -170,6 +170,41 @@ def dias_por_nivel(self):
             conteos[self.nivel_de_presion(cantidad)] += 1
         return conteos
 
+def racha_mas_larga_en_saturacion(self):
+        """Devuelve (días de la racha más larga, fecha en que empezó).
+
+        Si no hubo ningún día en saturación devuelve (0, None). Cuando dos
+        rachas empatan se queda con la primera, porque solo reemplaza a la
+        mejor cuando la actual la supera estrictamente.
+        """
+        mejor_largo = 0
+        mejor_inicio = 0
+        actual = 0
+        for i in range(len(self.visitantes)):
+            if self.nivel_de_presion(self.visitantes[i]) == SATURACION:
+                actual += 1
+                if actual > mejor_largo:
+                    mejor_largo = actual
+                    mejor_inicio = i - actual + 1
+            else:
+                actual = 0
+        if mejor_largo == 0:
+            return 0, None
+        return mejor_largo, self.fecha_del_dia(mejor_inicio)
+
+def fecha_ultimo_dia(self):
+        return self.fecha_del_dia(len(self.visitantes) - 1)
+
+    def dias_sin_registrar(self):
+        hoy = date.today()
+        ultimo_que_debe_haber = hoy - timedelta(days=1)
+        ultimo = self.fecha_ultimo_dia()
+        if ultimo >= ultimo_que_debe_haber:
+            return 0, None, None
+        primero_que_falta = ultimo + timedelta(days=1)
+        faltan = (ultimo_que_debe_haber - ultimo).days
+        return faltan, primero_que_falta, ultimo_que_debe_haber
+
 class Reserva:
 def __init__(self):
         self.sectores = []

@@ -152,13 +152,14 @@ def fecha_dia_con_menos_visitantes(self):
                 posicion = i
         return self.fecha_del_dia(posicion)
 
-    def nivel_de_presion(self, visitantes):
-        porcentaje = visitantes / self.capacidad
-        if porcentaje >= 0.9:
+def nivel_de_presion(self, visitantes):
+        """Nivel de presión de un día, comparando con enteros (sin decimales)."""
+        ocupado = visitantes * 100
+        if ocupado >= 90 * self.capacidad:
             return SATURACION
-        if porcentaje >= 0.75:
+        if ocupado >= 75 * self.capacidad:
             return ALTA
-        if porcentaje >= 0.5:
+        if ocupado >= 50 * self.capacidad:
             return MODERADA
         return BAJA
 

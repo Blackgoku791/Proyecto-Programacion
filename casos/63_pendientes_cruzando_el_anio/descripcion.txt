@@ -1,0 +1,3 @@
+Requisito(s): 9
+Verifica: Con hoy el 2027-01-03 faltan 58 días, del 2026-11-06 al 2027-01-02.
+Fecha de hoy simulada: 2027-01-03

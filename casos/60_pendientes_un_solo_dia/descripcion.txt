@@ -1,0 +1,3 @@
+Requisito(s): 9
+Verifica: Con hoy el 2026-11-07 y último día el 2026-11-05 falta registrar un solo día, el 2026-11-06.
+Fecha de hoy simulada: 2026-11-07

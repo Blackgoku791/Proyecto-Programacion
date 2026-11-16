@@ -101,7 +101,7 @@ def opcion_simular_dias(reserva):
     print(f"Se simularon {cantidad_texto(dias, 'día', 'días')} "
           f"en el registro de {sector.nombre}.")
 
-def mostrar_informe(sector):
+def mostrar_informe(sector, hoy):
     print(f"Informe del sector {sector.nombre}")
     print("Capacidad de carga: "
           f"{cantidad_texto(sector.capacidad, 'visitante', 'visitantes')}")
@@ -128,7 +128,7 @@ def mostrar_informe(sector):
         print("Racha más larga en saturación: "
               f"{cantidad_texto(largo, 'día', 'días')}, desde el {inicio}")
     print(f"Último día registrado: {sector.fecha_ultimo_dia()}")
-    faltan, primero, ultimo = sector.dias_sin_registrar()
+    faltan, primero, ultimo = sector.dias_sin_registrar(hoy)
     if faltan == 0:
         print("El registro está al día.")
     elif faltan == 1:
@@ -139,7 +139,17 @@ def mostrar_informe(sector):
 def opcion_informe(reserva):
     sector = pedir_sector(reserva)
     if sector is not None:
-        mostrar_informe(sector)
+        mostrar_informe(sector, obtener_fecha_actual())
+
+def obtener_fecha_actual():
+    """La fecha del computador, o la de FECHA_ACTUAL_PRUEBA si está definida."""
+    texto = os.environ.get("FECHA_ACTUAL_PRUEBA")
+    if texto:
+        try:
+            return date.fromisoformat(texto)
+        except ValueError:
+            pass
+    return date.today()
 
 def main():
     reserva = Reserva()

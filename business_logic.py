@@ -195,8 +195,12 @@ def racha_mas_larga_en_saturacion(self):
 def fecha_ultimo_dia(self):
         return self.fecha_del_dia(len(self.visitantes) - 1)
 
-    def dias_sin_registrar(self):
-        hoy = date.today()
+def dias_sin_registrar(self, hoy):
+        """Devuelve (cuántos, primer día, último día) de los días sin registrar.
+
+        El registro completo llega hasta el día anterior a hoy. Si ya llega
+        hasta ahí (o más lejos, por los días simulados) devuelve (0, None, None).
+        """
         ultimo_que_debe_haber = hoy - timedelta(days=1)
         ultimo = self.fecha_ultimo_dia()
         if ultimo >= ultimo_que_debe_haber:

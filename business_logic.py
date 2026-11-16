@@ -209,6 +209,9 @@ def dias_sin_registrar(self, hoy):
         faltan = (ultimo_que_debe_haber - ultimo).days
         return faltan, primero_que_falta, ultimo_que_debe_haber
 
+    def uso_mayor_que(self, otro):
+        return self.porcentaje_uso() > otro.porcentaje_uso()
+
 class Reserva:
 def __init__(self):
         self.sectores = []

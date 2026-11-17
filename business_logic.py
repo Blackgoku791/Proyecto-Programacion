@@ -209,8 +209,15 @@ def dias_sin_registrar(self, hoy):
         faltan = (ultimo_que_debe_haber - ultimo).days
         return faltan, primero_que_falta, ultimo_que_debe_haber
 
-    def uso_mayor_que(self, otro):
-        return self.porcentaje_uso() > otro.porcentaje_uso()
+def uso_mayor_que(self, otro):
+        """True si el porcentaje de uso de este sector supera al de otro.
+
+        Compara las fracciones total / (días * capacidad) multiplicando en cruz,
+        con enteros, así un empate real nunca se rompe por errores de decimales.
+        """
+        mio = self.visitantes_totales() * len(otro.visitantes) * otro.capacidad
+        suyo = otro.visitantes_totales() * len(self.visitantes) * self.capacidad
+        return mio > suyo
 
 class Reserva:
 def __init__(self):

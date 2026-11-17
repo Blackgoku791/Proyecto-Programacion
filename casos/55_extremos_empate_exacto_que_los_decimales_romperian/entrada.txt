@@ -1,0 +1,5 @@
+6
+casos/datos/sectores_gemelos.csv
+casos/datos/visitantes_gemelos.csv
+5
+7

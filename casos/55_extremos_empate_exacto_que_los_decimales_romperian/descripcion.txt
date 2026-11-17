@@ -1,0 +1,3 @@
+Requisito(s): 11
+Verifica: Gemelo A (1 de 3) y Gemelo B (1, 2 y 2 de 5) tienen exactamente 33.33 %, pero con decimales el cálculo promedio/capacidad*100 da valores distintos; debe contar el primero.
+Fecha de hoy simulada: 2026-11-20

@@ -1,0 +1,3 @@
+Requisito(s): 11
+Verifica: Playa Brava (80.17 %) es el más alto y el Mirador del Faro (65.0 %) el más bajo; la Cueva sin días no cuenta.
+Fecha de hoy simulada: 2026-11-20

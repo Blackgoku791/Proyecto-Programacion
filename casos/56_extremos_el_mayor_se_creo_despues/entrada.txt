@@ -1,0 +1,5 @@
+6
+casos/datos/sectores_extremos.csv
+casos/datos/visitantes_extremos.csv
+5
+7

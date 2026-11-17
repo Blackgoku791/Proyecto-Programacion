@@ -1,0 +1,3 @@
+Requisito(s): 11
+Verifica: Tres sectores con 50 % exacto: tanto el más alto como el más bajo son el primero creado.
+Fecha de hoy simulada: 2026-11-20

@@ -1,0 +1,3 @@
+Requisito(s): 11
+Verifica: Con un sector sin días registrados avisa lo mismo.
+Fecha de hoy simulada: 2026-11-20

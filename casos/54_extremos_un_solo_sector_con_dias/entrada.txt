@@ -1,0 +1,17 @@
+1
+Mirador del Faro
+80
+2026
+11
+1
+1
+Cueva del Murciélago
+40
+2026
+11
+1
+2
+Mirador del Faro
+52
+5
+7

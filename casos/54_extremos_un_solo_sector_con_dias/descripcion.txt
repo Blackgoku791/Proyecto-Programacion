@@ -1,0 +1,3 @@
+Requisito(s): 11
+Verifica: Con un único sector con días, ese sector es a la vez el más alto y el más bajo.
+Fecha de hoy simulada: 2026-11-20

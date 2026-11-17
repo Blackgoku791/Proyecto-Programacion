@@ -1,0 +1,3 @@
+Requisito(s): 11
+Verifica: El sector de mayor uso (Alto, 90 %) se creó después del de menor uso (Bajo, 10 %).
+Fecha de hoy simulada: 2026-11-20

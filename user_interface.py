@@ -151,6 +151,16 @@ def obtener_fecha_actual():
             pass
     return date.today()
 
+def opcion_uso_extremo(reserva):
+    mayor, menor = reserva.sectores_con_uso_extremo()
+    if mayor is None:
+        print("Ningún sector tiene días registrados.")
+        return
+    print("Sector con el porcentaje de uso más alto: "
+          f"{mayor.nombre} ({round(mayor.porcentaje_uso(), 2)} %)")
+    print("Sector con el porcentaje de uso más bajo: "
+          f"{menor.nombre} ({round(menor.porcentaje_uso(), 2)} %)")
+
 def main():
     reserva = Reserva()
     opcion = ""
@@ -166,6 +176,8 @@ def main():
                 opcion_simular_dias(reserva)
             elif opcion == "4":
                 opcion_informe(reserva)
+            elif opcion == "5":
+                opcion_uso_extremo(reserva)
             elif opcion == "7":
                 print("Hasta luego.")
             else:

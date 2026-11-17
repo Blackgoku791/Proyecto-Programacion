@@ -256,3 +256,19 @@ def crear_sector(self, nombre, capacidad_texto, anio_texto, mes_texto, dia_texto
         sector = Sector(nombre, capacidad, fecha)
         self.sectores.append(sector)
         return sector, None
+
+def sectores_con_uso_extremo(self):
+        """Devuelve (sector de mayor uso, sector de menor uso), o (None, None).
+
+        Solo cuenta los sectores con al menos un día registrado. En un empate
+        se queda con el que se creó primero.
+        """
+        mayor = None
+        menor = None
+        for sector in self.sectores:
+            if sector.dias_registrados() > 0:
+                if mayor is None or sector.uso_mayor_que(mayor):
+                    mayor = sector
+                if menor is None or menor.uso_mayor_que(sector):
+                    menor = sector
+        return mayor, menor

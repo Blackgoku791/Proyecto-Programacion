@@ -161,6 +161,38 @@ def opcion_uso_extremo(reserva):
     print("Sector con el porcentaje de uso más bajo: "
           f"{menor.nombre} ({round(menor.porcentaje_uso(), 2)} %)")
 
+def mostrar_cargados(cantidad, singular, plural):
+    if cantidad == 1:
+        print(f"Se cargó 1 {singular}.")
+    else:
+        print(f"Se cargaron {cantidad} {plural}.")
+
+def mostrar_descartes(descartes):
+    for numero, causa in descartes:
+        print(f"Línea {numero} descartada: {causa}")
+
+def opcion_cargar_archivos(reserva):
+    if not reserva.esta_vacia():
+        print("La carga solo se hace con el programa sin sectores.")
+        return
+    ruta_sectores = leer("Ruta del archivo de sectores: ").strip()
+    lineas, error = leer_lineas(ruta_sectores)
+    if lineas is None:
+        print(error)
+        return
+    cargados, descartes = reserva.cargar_sectores(lineas)
+    mostrar_descartes(descartes)
+    mostrar_cargados(cargados, "sector", "sectores")
+
+    ruta_visitantes = leer("Ruta del archivo de visitantes: ").strip()
+    lineas, error = leer_lineas(ruta_visitantes)
+    if lineas is None:
+        print(error)
+        return
+    cargados, descartes = reserva.cargar_visitantes(lineas)
+    mostrar_descartes(descartes)
+    mostrar_cargados(cargados, "día", "días")
+
 def main():
     reserva = Reserva()
     opcion = ""
@@ -178,6 +210,8 @@ def main():
                 opcion_informe(reserva)
             elif opcion == "5":
                 opcion_uso_extremo(reserva)
+            elif opcion == "6":
+                opcion_cargar_archivos(reserva)
             elif opcion == "7":
                 print("Hasta luego.")
             else:

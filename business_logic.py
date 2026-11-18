@@ -277,3 +277,53 @@ def sectores_con_uso_extremo(self):
                 if menor is None or menor.uso_mayor_que(sector):
                     menor = sector
         return mayor, menor
+
+def cargar_sectores(self, lineas):
+        """Crea los sectores del archivo. Devuelve (cuántos, descartes).
+
+        Los descartes son una lista de (número de línea, causa). La línea 1 es
+        el encabezado y no se procesa; las líneas vacías se saltan sin aviso.
+        """
+        cargados = 0
+        descartes = []
+        for posicion in range(1, len(lineas)):
+            numero = posicion + 1
+            linea = lineas[posicion]
+            if linea.strip() != "":
+                campos = linea.split(";")
+                if len(campos) != 5:
+                    descartes.append((numero, "No tiene cinco campos."))
+                else:
+                    sector, mensaje = self.crear_sector(campos[0], campos[1], campos[2],
+                                                        campos[3], campos[4])
+                    if sector is None:
+                        descartes.append((numero, mensaje))
+                    else:
+                        cargados += 1
+        return cargados, descartes
+
+def cargar_visitantes(self, lineas):
+        """Agrega los días del archivo a sus sectores. Devuelve (cuántos, descartes)."""
+        cargados = 0
+        descartes = []
+        for posicion in range(1, len(lineas)):
+            numero = posicion + 1
+            linea = lineas[posicion]
+            if linea.strip() != "":
+                campos = linea.split(";")
+                if len(campos) != 2:
+                    descartes.append((numero, "No tiene dos campos."))
+                else:
+                    sector = self.buscar_sector(campos[0])
+                    if sector is None:
+                        descartes.append((numero, "No hay un sector con ese nombre."))
+                    else:
+                        visitantes, mensaje = sector.validar_visitantes(campos[1])
+                        if visitantes is None:
+                            descartes.append((numero, mensaje))
+                        elif sector.fecha_siguiente() is None:
+                            descartes.append((numero, MENSAJE_FIN_CALENDARIO))
+                        else:
+                            sector.registrar_dia(visitantes)
+                            cargados += 1
+        return cargados, descartes

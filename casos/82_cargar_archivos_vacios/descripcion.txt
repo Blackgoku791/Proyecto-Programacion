@@ -1,0 +1,3 @@
+Requisito(s): 12, 13
+Verifica: Un archivo sin ningún byte y uno con solo el encabezado cargan cero sectores y cero días.
+Fecha de hoy simulada: 2026-11-20

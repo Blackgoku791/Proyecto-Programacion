@@ -1,0 +1,49 @@
+
+===== Reserva Natural Bahía Coralina =====
+1. Crear un sector
+2. Registrar los visitantes del día siguiente
+3. Simular días
+4. Ver el informe de un sector
+5. Ver el sector con el porcentaje de uso más alto y el más bajo
+6. Cargar los sectores y los visitantes desde archivos
+7. Salir
+Elija una opción: 1
+Nombre del sector: Mirador del Faro
+Capacidad de carga (visitantes por día): 80
+Año de inicio del registro: 2026
+Mes de inicio del registro: 11
+Día de inicio del registro: 1
+Sector creado: Mirador del Faro (capacidad de carga: 80 visitantes, inicio del registro: 2026-11-01). Todavía no tiene días registrados.
+
+===== Reserva Natural Bahía Coralina =====
+1. Crear un sector
+2. Registrar los visitantes del día siguiente
+3. Simular días
+4. Ver el informe de un sector
+5. Ver el sector con el porcentaje de uso más alto y el más bajo
+6. Cargar los sectores y los visitantes desde archivos
+7. Salir
+Elija una opción: 6
+La carga solo se hace con el programa sin sectores.
+
+===== Reserva Natural Bahía Coralina =====
+1. Crear un sector
+2. Registrar los visitantes del día siguiente
+3. Simular días
+4. Ver el informe de un sector
+5. Ver el sector con el porcentaje de uso más alto y el más bajo
+6. Cargar los sectores y los visitantes desde archivos
+7. Salir
+Elija una opción: 5
+Ningún sector tiene días registrados.
+
+===== Reserva Natural Bahía Coralina =====
+1. Crear un sector
+2. Registrar los visitantes del día siguiente
+3. Simular días
+4. Ver el informe de un sector
+5. Ver el sector con el porcentaje de uso más alto y el más bajo
+6. Cargar los sectores y los visitantes desde archivos
+7. Salir
+Elija una opción: 7
+Hasta luego.

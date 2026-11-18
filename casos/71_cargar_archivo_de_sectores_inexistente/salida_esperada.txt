@@ -1,0 +1,34 @@
+
+===== Reserva Natural Bahía Coralina =====
+1. Crear un sector
+2. Registrar los visitantes del día siguiente
+3. Simular días
+4. Ver el informe de un sector
+5. Ver el sector con el porcentaje de uso más alto y el más bajo
+6. Cargar los sectores y los visitantes desde archivos
+7. Salir
+Elija una opción: 6
+Ruta del archivo de sectores: casos/datos/no_existe.csv
+El archivo no existe.
+
+===== Reserva Natural Bahía Coralina =====
+1. Crear un sector
+2. Registrar los visitantes del día siguiente
+3. Simular días
+4. Ver el informe de un sector
+5. Ver el sector con el porcentaje de uso más alto y el más bajo
+6. Cargar los sectores y los visitantes desde archivos
+7. Salir
+Elija una opción: 5
+Ningún sector tiene días registrados.
+
+===== Reserva Natural Bahía Coralina =====
+1. Crear un sector
+2. Registrar los visitantes del día siguiente
+3. Simular días
+4. Ver el informe de un sector
+5. Ver el sector con el porcentaje de uso más alto y el más bajo
+6. Cargar los sectores y los visitantes desde archivos
+7. Salir
+Elija una opción: 7
+Hasta luego.

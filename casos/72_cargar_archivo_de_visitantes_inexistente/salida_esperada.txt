@@ -1,0 +1,44 @@
+
+===== Reserva Natural Bahía Coralina =====
+1. Crear un sector
+2. Registrar los visitantes del día siguiente
+3. Simular días
+4. Ver el informe de un sector
+5. Ver el sector con el porcentaje de uso más alto y el más bajo
+6. Cargar los sectores y los visitantes desde archivos
+7. Salir
+Elija una opción: 6
+Ruta del archivo de sectores: casos/datos/sectores_ejemplo.csv
+Línea 4 descartada: La capacidad de carga debe ser de al menos un visitante.
+Línea 5 descartada: No tiene cinco campos.
+Línea 6 descartada: La capacidad de carga debe ser un número entero.
+Línea 7 descartada: Ya existe un sector con ese nombre.
+Línea 8 descartada: La fecha no es válida.
+Se cargaron 2 sectores.
+Ruta del archivo de visitantes: casos/datos/no_existe.csv
+El archivo no existe.
+
+===== Reserva Natural Bahía Coralina =====
+1. Crear un sector
+2. Registrar los visitantes del día siguiente
+3. Simular días
+4. Ver el informe de un sector
+5. Ver el sector con el porcentaje de uso más alto y el más bajo
+6. Cargar los sectores y los visitantes desde archivos
+7. Salir
+Elija una opción: 4
+Nombre del sector: Playa Brava
+Informe del sector Playa Brava
+Capacidad de carga: 600 visitantes
+El sector no tiene días registrados.
+
+===== Reserva Natural Bahía Coralina =====
+1. Crear un sector
+2. Registrar los visitantes del día siguiente
+3. Simular días
+4. Ver el informe de un sector
+5. Ver el sector con el porcentaje de uso más alto y el más bajo
+6. Cargar los sectores y los visitantes desde archivos
+7. Salir
+Elija una opción: 7
+Hasta luego.

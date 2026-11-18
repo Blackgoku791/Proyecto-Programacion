@@ -1,0 +1,3 @@
+Requisito(s): 12
+Verifica: Una ruta vacía no existe; una ruta que es una carpeta no se puede leer. En ambos casos no se carga nada.
+Fecha de hoy simulada: 2026-11-20

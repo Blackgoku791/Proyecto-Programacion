@@ -1,0 +1,7 @@
+6
+casos/datos/sectores_informe.csv
+casos/datos/visitantes_informe.csv
+6
+4
+Playa Brava
+7

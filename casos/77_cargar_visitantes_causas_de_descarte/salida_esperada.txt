@@ -1,0 +1,46 @@
+
+===== Reserva Natural Bahía Coralina =====
+1. Crear un sector
+2. Registrar los visitantes del día siguiente
+3. Simular días
+4. Ver el informe de un sector
+5. Ver el sector con el porcentaje de uso más alto y el más bajo
+6. Cargar los sectores y los visitantes desde archivos
+7. Salir
+Elija una opción: 6
+Ruta del archivo de sectores: casos/datos/sectores_dos.csv
+Se cargaron 2 sectores.
+Ruta del archivo de visitantes: casos/datos/visitantes_descartes.csv
+Línea 3 descartada: No hay un sector con ese nombre.
+Línea 4 descartada: No hay un sector con ese nombre.
+Línea 5 descartada: Los visitantes deben ser un número entero.
+Línea 6 descartada: Los visitantes deben ser un número entero.
+Línea 7 descartada: Los visitantes van de 0 a 600.
+Línea 10 descartada: No hay un sector con ese nombre.
+Línea 11 descartada: No tiene dos campos.
+Línea 12 descartada: No tiene dos campos.
+Línea 14 descartada: Los visitantes van de 0 a 80.
+Se cargaron 4 días.
+
+===== Reserva Natural Bahía Coralina =====
+1. Crear un sector
+2. Registrar los visitantes del día siguiente
+3. Simular días
+4. Ver el informe de un sector
+5. Ver el sector con el porcentaje de uso más alto y el más bajo
+6. Cargar los sectores y los visitantes desde archivos
+7. Salir
+Elija una opción: 5
+Sector con el porcentaje de uso más alto: Mirador del Faro (100.0 %)
+Sector con el porcentaje de uso más bajo: Playa Brava (56.67 %)
+
+===== Reserva Natural Bahía Coralina =====
+1. Crear un sector
+2. Registrar los visitantes del día siguiente
+3. Simular días
+4. Ver el informe de un sector
+5. Ver el sector con el porcentaje de uso más alto y el más bajo
+6. Cargar los sectores y los visitantes desde archivos
+7. Salir
+Elija una opción: 7
+Hasta luego.

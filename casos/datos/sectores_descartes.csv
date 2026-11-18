@@ -1,0 +1,12 @@
+sector;capacidad_de_carga;año;mes;día
+Playa Brava;600;2026;11;1
+;;;;
+a;b;c;d;e;f
+Sin capacidad;;2026;11;1
+  ;5;2026;11;1
+Playa Brava ;100;2026;11;1
+Isla;50;x;11;1
+Isla;50;2026;2;30
+Neg;-3;2026;11;1
+Decimal;1.5;2026;11;1
+playa brava;50;2026;11;1

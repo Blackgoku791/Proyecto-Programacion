@@ -1,0 +1,3 @@
+Requisito(s): 12
+Verifica: Un archivo de sectores guardado en Latin-1 se rechaza completo con un aviso.
+Fecha de hoy simulada: 2026-11-20

@@ -1,0 +1,3 @@
+Requisito(s): 12
+Verifica: Con un sector ya en el programa avisa que la carga solo se hace sin sectores y no lee ninguna ruta.
+Fecha de hoy simulada: 2026-11-20

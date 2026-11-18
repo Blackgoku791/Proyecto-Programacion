@@ -1,0 +1,4 @@
+6
+casos/datos/sectores_latin1.csv
+5
+7

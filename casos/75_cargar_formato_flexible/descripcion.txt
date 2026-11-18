@@ -1,0 +1,3 @@
+Requisito(s): 12, 13
+Verifica: Acepta BOM, finales de línea de Windows, líneas vacías o solo con espacios, espacios alrededor de los campos y última línea sin salto de línea.
+Fecha de hoy simulada: 2026-11-20

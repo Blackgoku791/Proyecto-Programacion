@@ -1,0 +1,3 @@
+Requisito(s): 12, 13
+Verifica: Un día que ya no cabe en el calendario se descarta con su causa; con un sector y un día los avisos van en singular.
+Fecha de hoy simulada: 2026-11-20

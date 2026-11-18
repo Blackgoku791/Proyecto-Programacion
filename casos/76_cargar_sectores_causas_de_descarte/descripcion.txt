@@ -1,0 +1,3 @@
+Requisito(s): 12
+Verifica: Cada causa de descarte de una línea de sectores, en el orden de las condiciones: campos, nombre vacío, nombre repetido (con espacios), capacidad no entera, capacidad menor a uno y fecha.
+Fecha de hoy simulada: 2026-11-20

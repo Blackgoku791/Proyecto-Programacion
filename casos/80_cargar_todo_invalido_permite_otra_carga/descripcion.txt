@@ -1,0 +1,3 @@
+Requisito(s): 12, 13
+Verifica: Si ninguna línea crea un sector, el programa sigue sin sectores y permite una nueva carga.
+Fecha de hoy simulada: 2026-11-20

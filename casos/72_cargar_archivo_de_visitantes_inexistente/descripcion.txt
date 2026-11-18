@@ -1,0 +1,3 @@
+Requisito(s): 13
+Verifica: Si el archivo de visitantes no existe, los sectores ya cargados se quedan sin días registrados.
+Fecha de hoy simulada: 2026-11-20

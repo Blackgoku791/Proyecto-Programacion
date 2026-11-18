@@ -1,0 +1,8 @@
+6
+casos/datos/sectores_todos_invalidos.csv
+casos/datos/visitantes_solo_encabezado.csv
+6
+casos/datos/sectores_informe.csv
+casos/datos/visitantes_informe.csv
+5
+7

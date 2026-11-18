@@ -1,0 +1,3 @@
+Requisito(s): 12, 13
+Verifica: Carga el ejemplo completo del documento: 2 sectores con 5 líneas descartadas y 9 días con otras 5 descartadas, y comprueba los datos cargados.
+Fecha de hoy simulada: 2026-11-20

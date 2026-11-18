@@ -1,0 +1,3 @@
+Requisito(s): 12
+Verifica: Si el archivo de sectores no existe lo avisa, no carga nada y no lee la ruta del de visitantes.
+Fecha de hoy simulada: 2026-11-20

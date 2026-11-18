@@ -1,0 +1,3 @@
+Requisito(s): 13
+Verifica: Cada causa de descarte de una línea de visitantes: campos, sector inexistente (también por mayúsculas), no entero y fuera de rango; 0 y la capacidad se aceptan.
+Fecha de hoy simulada: 2026-11-20

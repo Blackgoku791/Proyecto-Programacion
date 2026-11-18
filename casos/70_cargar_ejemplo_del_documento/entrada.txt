@@ -1,0 +1,8 @@
+6
+casos/datos/sectores_ejemplo.csv
+casos/datos/visitantes_ejemplo.csv
+4
+Playa Brava
+4
+Sendero de los Mangles
+7

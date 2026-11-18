@@ -1,0 +1,6 @@
+6
+casos/datos/sectores_ejemplo.csv
+casos/datos/no_existe.csv
+4
+Playa Brava
+7

@@ -1,0 +1,3 @@
+Requisito(s): 12, 13
+Verifica: Una segunda carga se rechaza y los días no se agregan otra vez (Playa Brava sigue con 5 días).
+Fecha de hoy simulada: 2026-11-20

@@ -52,6 +52,11 @@ def cantidad_texto(cantidad, singular, plural):
         return f"{cantidad} {singular}"
     return f"{cantidad} {plural}"
 
+def leer_lineas(ruta):
+    with open(ruta, "r", encoding="utf-8") as archivo:
+        texto = archivo.read()
+    return texto.splitlines(), None
+
 class Sector:
 def __init__(self, nombre, capacidad, fecha_inicio):
         self.nombre = nombre

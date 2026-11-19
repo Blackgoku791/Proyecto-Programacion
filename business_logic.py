@@ -53,9 +53,20 @@ def cantidad_texto(cantidad, singular, plural):
     return f"{cantidad} {plural}"
 
 def leer_lineas(ruta):
-    with open(ruta, "r", encoding="utf-8") as archivo:
-        texto = archivo.read()
-    return texto.splitlines(), None
+    """Lee un archivo de texto UTF-8 y devuelve (lineas, None).
+
+    Si no se puede leer, devuelve (None, mensaje con la causa).
+    """
+    try:
+        with open(ruta, "r", encoding="utf-8") as archivo:
+            texto = archivo.read()
+    except FileNotFoundError:
+        return None, "El archivo no existe."
+    except UnicodeDecodeError:
+        return None, "El archivo no está guardado en UTF-8."
+    except (OSError, ValueError):
+        return None, "No se pudo leer el archivo."
+    return texto.split("\n"), None
 
 class Sector:
 def __init__(self, nombre, capacidad, fecha_inicio):

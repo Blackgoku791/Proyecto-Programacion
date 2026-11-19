@@ -6,7 +6,7 @@ Alternativa B: Los visitantes de la Reserva Natural Bahia Coralina.
 Integradantes: Jose Alcendra, Sebastian Turizo y Luis Pacheco.
 
 El repositorio esta en la organizacion Proyecto-Final-Programacion y es publico:
-https://github.com/Blackgoku791/Proyecto-Programacion
+https://github.com/Proyecto-Final-Programacion/Proyecto-Programacion
 
 ## Video
 

@@ -1,5 +1,3 @@
-"""Interfaz de consola de la Reserva Natural Bahía Coralina."""
-
 """Interfaz de consola de la Reserva Natural Bahía Coralina (Alternativa B).
 
 Lee lo que teclea la persona, llama a business_logic.py y muestra los resultados.
@@ -11,10 +9,13 @@ casos automáticos; sin ellas el programa se comporta como siempre:
   ECO_ENTRADA=1                   repite en pantalla lo que se lee, para que la
                                   salida se vea como una sesión de terminal.
 """
+
 import os
 from datetime import date
+
 from business_logic import (Reserva, leer_lineas, cantidad_texto, SATURACION,
                             MENSAJE_FIN_CALENDARIO)
+
 MENU = """
 ===== Reserva Natural Bahía Coralina =====
 1. Crear un sector
@@ -24,8 +25,11 @@ MENU = """
 5. Ver el sector con el porcentaje de uso más alto y el más bajo
 6. Cargar los sectores y los visitantes desde archivos
 7. Salir"""
-if __name__ == "__main__":
-    main()
+
+
+# ---------------------------------------------------------------------------
+# Entrada y salida básicas
+# ---------------------------------------------------------------------------
 
 def leer(mensaje):
     """Muestra el mensaje y lee una línea. Con ECO_ENTRADA=1 la repite en pantalla."""
@@ -34,6 +38,18 @@ def leer(mensaje):
         print(texto)
     return texto
 
+
+def obtener_fecha_actual():
+    """La fecha del computador, o la de FECHA_ACTUAL_PRUEBA si está definida."""
+    texto = os.environ.get("FECHA_ACTUAL_PRUEBA")
+    if texto:
+        try:
+            return date.fromisoformat(texto)
+        except ValueError:
+            pass
+    return date.today()
+
+
 def pedir_sector(reserva):
     """Lee el nombre de un sector y lo busca. Si no existe lo avisa y devuelve None."""
     nombre = leer("Nombre del sector: ")
@@ -41,6 +57,16 @@ def pedir_sector(reserva):
     if sector is None:
         print("No hay un sector con ese nombre.")
     return sector
+
+
+def mostrar_descartes(descartes):
+    for numero, causa in descartes:
+        print(f"Línea {numero} descartada: {causa}")
+
+
+# ---------------------------------------------------------------------------
+# Una función por cada opción del menú
+# ---------------------------------------------------------------------------
 
 def opcion_crear_sector(reserva):
     nombre = leer("Nombre del sector: ")
@@ -56,6 +82,7 @@ def opcion_crear_sector(reserva):
               f"{cantidad_texto(sector.capacidad, 'visitante', 'visitantes')}, "
               f"inicio del registro: {sector.fecha_inicio}). "
               "Todavía no tiene días registrados.")
+
 
 def opcion_registrar_dia(reserva):
     sector = pedir_sector(reserva)
@@ -75,6 +102,7 @@ def opcion_registrar_dia(reserva):
     sector.registrar_dia(visitantes)
     print(f"Se registró el día {fecha} con "
           f"{cantidad_texto(visitantes, 'visitante', 'visitantes')}.")
+
 
 def opcion_simular_dias(reserva):
     sector = pedir_sector(reserva)
@@ -100,6 +128,7 @@ def opcion_simular_dias(reserva):
     sector.simular_dias(dias, minimo, maximo)
     print(f"Se simularon {cantidad_texto(dias, 'día', 'días')} "
           f"en el registro de {sector.nombre}.")
+
 
 def mostrar_informe(sector, hoy):
     print(f"Informe del sector {sector.nombre}")
@@ -136,20 +165,12 @@ def mostrar_informe(sector, hoy):
     else:
         print(f"Días por registrar: {faltan}, del {primero} al {ultimo}")
 
+
 def opcion_informe(reserva):
     sector = pedir_sector(reserva)
     if sector is not None:
         mostrar_informe(sector, obtener_fecha_actual())
 
-def obtener_fecha_actual():
-    """La fecha del computador, o la de FECHA_ACTUAL_PRUEBA si está definida."""
-    texto = os.environ.get("FECHA_ACTUAL_PRUEBA")
-    if texto:
-        try:
-            return date.fromisoformat(texto)
-        except ValueError:
-            pass
-    return date.today()
 
 def opcion_uso_extremo(reserva):
     mayor, menor = reserva.sectores_con_uso_extremo()
@@ -161,15 +182,13 @@ def opcion_uso_extremo(reserva):
     print("Sector con el porcentaje de uso más bajo: "
           f"{menor.nombre} ({round(menor.porcentaje_uso(), 2)} %)")
 
+
 def mostrar_cargados(cantidad, singular, plural):
     if cantidad == 1:
         print(f"Se cargó 1 {singular}.")
     else:
         print(f"Se cargaron {cantidad} {plural}.")
 
-def mostrar_descartes(descartes):
-    for numero, causa in descartes:
-        print(f"Línea {numero} descartada: {causa}")
 
 def opcion_cargar_archivos(reserva):
     if not reserva.esta_vacia():
@@ -192,6 +211,11 @@ def opcion_cargar_archivos(reserva):
     cargados, descartes = reserva.cargar_visitantes(lineas)
     mostrar_descartes(descartes)
     mostrar_cargados(cargados, "día", "días")
+
+
+# ---------------------------------------------------------------------------
+# Programa principal
+# ---------------------------------------------------------------------------
 
 def main():
     reserva = Reserva()
@@ -217,6 +241,7 @@ def main():
             else:
                 print("La opción no es válida.")
     except EOFError:
+        # Se acabaron los datos de entrada (por ejemplo, Ctrl+D o un archivo de entrada corto).
         print()
         print("Se terminó la entrada de datos. El programa termina.")
 
